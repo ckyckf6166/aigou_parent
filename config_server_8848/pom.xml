@@ -40,7 +40,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>cn.ttaigou.ConfigServerApplication_8848</mainClass>
+                    <mainClass>cn.itsource.aigou.ConfigServerApplication_8848</mainClass>
                     <layout>ZIP</layout>
                 </configuration>
                 <executions>

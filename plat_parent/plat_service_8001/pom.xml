@@ -59,7 +59,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>cn.ttaigou.PlatApplication_8001</mainClass>
+                    <mainClass>cn.itsource.aigou.PlatApplication_8001</mainClass>
                     <layout>ZIP</layout>
                 </configuration>
                 <executions>

@@ -35,7 +35,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>cn.ttaigou.EurekaServer_7001</mainClass>
+                    <mainClass>cn.itsource.aigou.EurekaServer_7001</mainClass>
                     <layout>ZIP</layout>
                 </configuration>
                 <executions>
