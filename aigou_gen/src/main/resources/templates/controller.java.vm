@@ -18,17 +18,17 @@ public class ${entity}Controller {
     public ${table.serviceName} ${table.entityPath}Service;
 
     /**
-    * 保存和修改公用的
-    * @param ${table.entityPath}  传递的实体
-    * @return Ajaxresult转换结果
-    */
-    @RequestMapping(value="/add",method= RequestMethod.POST)
+     * 保存和修改公用的
+     * @param ${table.entityPath}  传递的实体
+     * @return Ajaxresult转换结果
+     */
+    @RequestMapping(value="/save",method= RequestMethod.POST)
     public AjaxResult save(@RequestBody ${entity} ${table.entityPath}){
         try {
             if(${table.entityPath}.getId()!=null){
-                ${table.entityPath}Service.updateById(${table.entityPath});
+                    ${table.entityPath}Service.updateById(${table.entityPath});
             }else{
-                ${table.entityPath}Service.insert(${table.entityPath});
+                    ${table.entityPath}Service.insert(${table.entityPath});
             }
             return AjaxResult.me();
         } catch (Exception e) {
@@ -42,20 +42,20 @@ public class ${entity}Controller {
     * @param id
     * @return
     */
-    @RequestMapping(value="/delete/{id}",method=RequestMethod.DELETE)
-    public AjaxResult delete(@PathVariable("id") Integer id){
+    @RequestMapping(value="/{id}",method=RequestMethod.DELETE)
+    public AjaxResult delete(@PathVariable("id") Long id){
         try {
-            ${table.entityPath}Service.deleteById(id);
+                ${table.entityPath}Service.deleteById(id);
             return AjaxResult.me();
         } catch (Exception e) {
-        e.printStackTrace();
+            e.printStackTrace();
             return AjaxResult.me().setMessage("删除对象失败！"+e.getMessage());
         }
     }
 
     //获取用户
     @RequestMapping(value = "/{id}",method = RequestMethod.GET)
-    public ${entity} get(@RequestParam(value="id",required=true) Long id)
+    public ${entity} get(@PathVariable("id")Long id)
     {
         return ${table.entityPath}Service.selectById(id);
     }
@@ -82,7 +82,7 @@ public class ${entity}Controller {
     public PageList<${entity}> json(@RequestBody ${entity}Query query)
     {
         Page<${entity}> page = new Page<${entity}>(query.getPage(),query.getRows());
-            page = ${table.entityPath}Service.selectPage(page);
-            return new PageList<${entity}>(page.getTotal(),page.getRecords());
+        page = ${table.entityPath}Service.selectPage(page);
+        return new PageList<${entity}>(page.getTotal(),page.getRecords());
     }
 }
