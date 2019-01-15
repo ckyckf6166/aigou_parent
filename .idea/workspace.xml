@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9cbe13f-6639-42c1-810d-ce393e47e454" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_1_30.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_46.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_1_30.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_34.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/product_parent/product_service_8002/pom.xml" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/product_parent/product_service_8002/product_service_8002.iml" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/product_service_8002.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,8 +88,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/product_parent/product_service_8002/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="78" column="20" lean-forward="true" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+            <state relative-caret-position="180">
+              <caret line="75" column="43" lean-forward="true" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -778,7 +776,7 @@
       <workItem from="1547296982548" duration="8569000" />
       <workItem from="1547340323504" duration="1177000" />
       <workItem from="1547341532941" duration="24189000" />
-      <workItem from="1547526538092" duration="15010000" />
+      <workItem from="1547526538092" duration="15101000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1547116878162</created>
@@ -829,7 +827,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547561514909</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="提交">
+      <created>1547561890209</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1547561890209</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -844,7 +849,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88863000" />
+    <option name="totallyTimeSpent" value="88954000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1424,8 +1429,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/product_parent/product_service_8002/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="78" column="20" lean-forward="true" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+        <state relative-caret-position="180">
+          <caret line="75" column="43" lean-forward="true" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
           <folding />
         </state>
       </provider>
