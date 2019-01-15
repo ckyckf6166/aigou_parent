@@ -2,39 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9cbe13f-6639-42c1-810d-ce393e47e454" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_1_30.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_interface/common_interface.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_interface/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_interface/src/main/java/cn/itsource/aigou/client/RedisClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_interface/src/main/java/cn/itsource/aigou/client/RedisClientFallbackFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_parent.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_service_8010/common_service_8010.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_service_8010/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_service_8010/src/main/java/cn/itsource/aigou/CommonApplication_8010.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_service_8010/src/main/java/cn/itsource/aigou/config/Swagger2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_service_8010/src/main/java/cn/itsource/aigou/controller/RedisController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_service_8010/src/main/java/cn/itsource/aigou/utils/RedisUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_service_8010/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_service_8010/src/main/resources/bootstrap.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_1_30.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_46.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/product_parent/product_service_8002/pom.xml" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/pom.xml" />
       <change beforePath="$PROJECT_DIR$/product_parent/product_service_8002/product_service_8002.iml" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/product_service_8002.iml" />
-      <change beforePath="$PROJECT_DIR$/zuul_gateway_9527/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/zuul_gateway_9527/src/main/resources/bootstrap.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -102,16 +73,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RedisController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common_parent/common_service_8010/src/main/java/cn/itsource/aigou/controller/RedisController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+            <state relative-caret-position="159">
+              <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#801#802#0" expanded="true" />
                 <element signature="e#852#853#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/product_parent/product_service_8002/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="78" column="20" lean-forward="true" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -185,10 +166,10 @@
         <option value="$PROJECT_DIR$/common_parent/common_service_8010/pom.xml" />
         <option value="$PROJECT_DIR$/common_parent/common_service_8010/src/main/java/cn/itsource/aigou/utils/RedisUtils.java" />
         <option value="$PROJECT_DIR$/common_parent/common_service_8010/src/main/java/cn/itsource/aigou/controller/RedisController.java" />
-        <option value="$PROJECT_DIR$/product_parent/product_service_8002/pom.xml" />
         <option value="$PROJECT_DIR$/product_parent/product_service_8002/src/main/java/cn/itsource/aigou/ProductService_8002.java" />
         <option value="$PROJECT_DIR$/product_parent/product_service_8002/src/main/java/cn/itsource/aigou/service/impl/ProductTypeServiceImpl.java" />
         <option value="$PROJECT_DIR$/common_parent/common_interface/src/main/java/cn/itsource/aigou/client/RedisClient.java" />
+        <option value="$PROJECT_DIR$/product_parent/product_service_8002/pom.xml" />
       </list>
     </option>
   </component>
@@ -228,8 +209,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="346" />
-    <option name="y" value="50" />
+    <option name="x" value="496" />
+    <option name="y" value="20" />
     <option name="width" value="1634" />
     <option name="height" value="981" />
   </component>
@@ -797,7 +778,7 @@
       <workItem from="1547296982548" duration="8569000" />
       <workItem from="1547340323504" duration="1177000" />
       <workItem from="1547341532941" duration="24189000" />
-      <workItem from="1547526538092" duration="14646000" />
+      <workItem from="1547526538092" duration="15010000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1547116878162</created>
@@ -841,7 +822,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547454959727</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="提交">
+      <created>1547561514909</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1547561514909</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -856,7 +844,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88499000" />
+    <option name="totallyTimeSpent" value="88863000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -868,7 +856,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="346" y="50" width="1634" height="981" extended-state="0" />
+    <frame x="496" y="20" width="1634" height="981" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43654823" sideWeight="0.50256413" order="7" side_tool="true" content_ui="tabs" />
@@ -1327,14 +1315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common_parent/common_service_8010/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zuul_gateway_9527/src/main/java/cn/itsource/aigou/config/GlobalCorsConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1391,14 +1371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product_parent/product_service_8002/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="76" column="21" lean-forward="true" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common_parent/common_interface/src/main/java/cn/itsource/aigou/client/RedisClientFallbackFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1415,7 +1387,7 @@
         <state relative-caret-position="90">
           <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1430,15 +1402,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common_parent/common_service_8010/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common_parent/common_service_8010/src/main/java/cn/itsource/aigou/controller/RedisController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        <state relative-caret-position="159">
+          <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#801#802#0" expanded="true" />
             <element signature="e#852#853#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_parent/product_service_8002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="78" column="20" lean-forward="true" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
