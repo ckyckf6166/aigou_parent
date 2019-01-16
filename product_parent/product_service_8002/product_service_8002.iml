@@ -191,6 +191,6 @@
     <orderEntry type="library" name="Maven: io.github.openfeign:feign-java8:9.5.1" level="project" />
     <orderEntry type="module" module-name="product_interface" />
     <orderEntry type="module" module-name="basic_util" />
-    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.34" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.1.30" level="project" />
   </component>
 </module>
